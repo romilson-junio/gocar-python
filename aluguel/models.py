@@ -19,4 +19,4 @@ class Aluguel(models.Model):
     valor = models.FloatField()
 
     def __str__(self):
-        return self.localRetirada
+        return self.status

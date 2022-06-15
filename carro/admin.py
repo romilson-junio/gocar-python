@@ -7,7 +7,7 @@ from carro.models import Carro
 
 class Carros(admin.ModelAdmin):
     list_display = (
-    'id', 'nome', 'marca', 'descricao', 'grupo', 'tamanhoMala', 'abs', 'airbag', 'vidroEletrico', 'arcondicionado', 'imagem',
+    'id', 'nome','fornecedor', 'marca', 'descricao', 'grupo', 'tamanhoMala', 'abs', 'airbag', 'vidroEletrico', 'arcondicionado', 'imagem',
     'travaEletrica', 'direcaoHidraulica', 'automatico', 'tetoSolar', 'portas', 'malas', 'assentos', 'motor', 'cor', 'valor')
     list_display_links = ('id', 'nome')
     search_fields = ('nome',)
